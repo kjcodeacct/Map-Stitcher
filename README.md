@@ -3,11 +3,26 @@
 # Table of Contents
 
 - [Overview](#overview)
+- [Examples](#examples)
 - [Dependencies](#dependencies)
+- [Attribution] (#attribution)
 - [License](#license)
 
 # Overview
 Map stitcher is a simple script that is configured to download tiled map layers, and stitch them together to create a world map.
+
+# Examples
+To test map stitcher with the provided example.yaml config, run the following command
+```
+python main.py --config example.yaml --file-ext .jpg
+```
+
+This will create a world map in the directory
+```
+/output/EPOCH_TIME/world-map.jpg
+```
+
+Please run ```python main.py -h``` to see more advanced runtime options
 
 # Dependencies
 * python 3.6
