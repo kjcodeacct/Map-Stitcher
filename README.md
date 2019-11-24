@@ -5,7 +5,7 @@
 - [Overview](#overview)
 - [Examples](#examples)
 - [Dependencies](#dependencies)
-- [Attribution] (#attribution)
+- [Attribution](#attribution)
 - [License](#license)
 
 # Overview
@@ -19,7 +19,7 @@ python main.py --config example.yaml --file-ext .jpg
 
 This will create a world map in the directory
 ```
-/output/EPOCH_TIME/world-map.jpg
+CURRENT_DIRECTORY/output/EPOCH_TIME/world-map.jpg
 ```
 
 Please run ```python main.py -h``` to see more advanced runtime options
