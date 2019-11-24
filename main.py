@@ -39,7 +39,7 @@ def main():
 
 	parsedMapURL, zoom = readConfig(configFile)
 
-	numTilesPerIteration  = (2 ** zoom) - 1
+	numTilesPerIteration  = (2 ** zoom)
 
 	for xTile in progressbar.progressbar(range(numTilesPerIteration)):
 		for yTile in progressbar.progressbar(range(numTilesPerIteration)):
