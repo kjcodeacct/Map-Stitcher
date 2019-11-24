@@ -39,13 +39,13 @@ def main():
 
 	parsedMapURL, zoom = readConfig(configFile)
 
-	numTilesPerIteration  = (2^zoom) - 1
+	numTilesPerIteration  = (2 ** zoom) - 1
 
 	for xTile in progressbar.progressbar(range(numTilesPerIteration)):
 		for yTile in progressbar.progressbar(range(numTilesPerIteration)):
 			saveMapTile(outputDirName, parsedMapURL, zoom, xTile, yTile)
 			# pausing download to avoid any security flags with tile service
-			time.sleep(0.3)
+			time.sleep(0.2)
 
 	pass
 
