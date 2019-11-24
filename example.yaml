@@ -1,4 +1,4 @@
-mapURL: https://api.mapbox.com/v4/mapbox.satellite/{{z}}/{{x}}/{{y}}@2x.jpg90?
-zoom: 6
+mapURL: https://api.mapbox.com/v4/mapbox.satellite/{{z}}/{{x}}/{{y}}@2x.jpg90
+zoom: 2
 paramList:
   access_token: access_token_goes_here_1234
